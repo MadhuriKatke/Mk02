@@ -35,7 +35,7 @@ namespace SimpleCrud.Controllers
             {
                 if (!ModelState.IsValid)
                 {
-                    return Json(new { Result = "ERROR", Message = "Form is not valid!11 Please correct it and try again." });
+                    return Json(new { Result = "ERROR", Message = "Form is not valid!MKedut1 Please correct it and try again." });
                 }
 
                 _repository.Update(patient);
